@@ -76,7 +76,7 @@
     color: var(--DarkGrayishMagenta);
     text-align: left;
     width: 85%;
-    line-height: 24px;
+    line-height: 25px;
     padding: 15px 0;
     font-weight: 500;
   }
@@ -147,7 +147,6 @@
     padding: 10px;
     gap: 10px;
     margin-left: 15px;
-    margin-bottom: 0.5px;
   }
   .stars > img {
     width: 100%;
@@ -185,7 +184,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 2px;
+    margin-top: 5px;
   }
   @media (max-width: 991px) {
     .bottom-section {
