@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 134px auto;
+    margin: 132px auto;
     gap: 40px;
   }
   /* Styling The Left Top Section*/
@@ -111,7 +111,7 @@
     align-items: center;
     padding: 10px;
     width: 95%;
-    gap: 15px;
+    gap: 20px;
     margin: 0 auto 15px;
     z-index: 1;
     position: relative;
@@ -196,7 +196,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px 27px;
+    padding: 40px 25px;
     width: fit-content;
     border-radius: 6px;
     gap: 25px 20px;
@@ -231,8 +231,8 @@
   }
   .box > p {
     color: var(--LightGrayishMagenta);
-    font-size: 0.813rem;
-    line-height: 20px;
+    font-size: 0.8rem;
+    line-height: 22px;
     font-weight: 500;
   }
   @media (max-width: 767px){
