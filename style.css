@@ -49,7 +49,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 130px auto 125px;
-    gap: 35px;
+    gap: 40px;
   }
   /* Styling The Left Top Section*/
   .top-section {
@@ -104,16 +104,13 @@
     padding: 15px;
     width: 100%;
   }
-  .rate {
-    width: 95%;
-  }
   .rate > li {
     background-color: var(--LightGrayishMagenta);
     border-radius: 9px;
     display: flex;
     align-items: center;
     padding: 10px;
-    width: 95%;
+    width: 90%;
     gap: 15px;
     margin: 0 auto 15px;
     z-index: 1;
