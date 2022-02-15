@@ -75,7 +75,7 @@
   .description {
     color: var(--DarkGrayishMagenta);
     text-align: left;
-    width: 90%;
+    width: 85%;
     line-height: 24px;
     padding: 15px 0;
     font-weight: 500;
@@ -109,13 +109,13 @@
   }
   .rate > li {
     background-color: var(--LightGrayishMagenta);
-    border-radius: 5px;
+    border-radius: 9px;
     display: flex;
     align-items: center;
     padding: 10px;
-    width: 100%;
-    gap: 30px;
-    margin: 0 auto 20px;
+    width: 95%;
+    gap: 15px;
+    margin: 0 auto 15px;
     z-index: 1;
     position: relative;
   }
@@ -126,7 +126,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: black;
-    border-radius: 5px;
+    border-radius: 9px;
     width: 0%;
     height: 0%;
     z-index: -1;
@@ -149,7 +149,7 @@
     flex-direction: row;
     padding: 10px;
     gap: 10px;
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .stars > img {
     width: 100%;
@@ -198,9 +198,9 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 40px 27px;
     width: fit-content;
-    border-radius: 5px;
+    border-radius: 6px;
     gap: 25px 20px;
     transition: 0.3s;
   }
@@ -209,10 +209,10 @@
   }
   @media (min-width: 992px) {
     .box:nth-of-type(2) {
-      margin-top: 15px;
+      margin-top: 20px;
     }
     .box:last-of-type {
-      margin-top: 30px;
+      margin-top: 40px;
     }
   }
   .box > img {
